@@ -3,7 +3,7 @@ import axios from "axios";
 
 //  axios instance
 const API = axios.create({
-  baseURL: "http://localhost:4000/api",
+  baseURL: "https://role-based-ticket-system-backend.onrender.com/api",
   timeout: 10000,
   headers: {
     "Content-Type": "application/json",
